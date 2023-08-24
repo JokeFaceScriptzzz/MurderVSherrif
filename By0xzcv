@@ -1,0 +1,83 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Muder Vs Sherrif Duels Script By 0xzcv", "Sentinel")
+
+
+--Combat
+local Combat = Window:NewTab("Combat")
+local CombatSection = Combat:NewSection("OP Combat Scripts(Tested!)")
+
+
+CombatSection:NewButton("HitBoxes", "Bigger Player", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/TgWmJEaC'),true))()
+end)
+
+
+CombatSection:NewButton("Tracers + ESP", "Find Them", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/DnEjnnqD", true))()
+end)
+
+CombatSection:NewLabel("No Need To Turn Tracer+ESP On Every game!")
+
+
+CombatSection:NewButton("Aimbot!(FOV)", "Locks Head", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/YYp5Y87c", true))()
+end)
+
+
+--Player
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player Main")
+
+
+PlayerSection:NewButton("Speed", "Fast Walkspeed", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/JptQThMn", true))()
+end)
+
+PlayerSection:NewLabel("U Have To Turn On Speed Every Game SADLY")
+
+
+PlayerSection:NewButton("Inf Jump", "Jump Lots of times", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/fL7SBv3T", true))()
+end)
+
+
+PlayerSection:NewButton("Invisible", "Be Like A Ghost", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/MXYxy6DF", true))()
+end)
+
+
+--Visuals
+local Visual = Window:NewTab("Visuals")
+local VisualSection = Visual:NewSection("Visuals Avatars")
+
+
+VisualSection:NewButton("Only HEADLESS", "No Head Only Face LOL", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ShCeRfbe", true))()
+end)
+
+
+VisualSection:NewButton("Korblox Toothpick + HEADLESS", "Slander lOL", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/H5yx10Jq'))()
+end)
+
+
+VisualSection:NewButton("Animation Changer", "W", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/h4CbmhTt'))()
+end)
+
+
+VisualSection:NewLabel("Note That U Have To Turn On Every Game SADLY")
+
+
+--Credits
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("Credits:")
+
+
+CreditsSection:NewLabel("0xzcv -- Gui Making")
+
+
+CreditsSection:NewLabel("0xzcv -- Scripting")
+
+
+CreditsSection:NewLabel("Sub To 0xzcv Today For More Scripts!!!")
